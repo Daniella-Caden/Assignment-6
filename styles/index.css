@@ -1,0 +1,64 @@
+ body {
+    background-color:darkgrey;
+    color: white;
+    margin: 0;
+    font-style: italic;
+    background-image: url('../background image/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 170mm;
+    
+} 
+
+.header{
+    text-align: center;
+    background: black;    
+    height: 100px;
+    padding: 120px 0px 120px 0px;
+    font-size: 40pt;
+    color: #f3f3f3;
+    text-shadow: 5px 5px 5px red;
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    color: rgb(150, 41, 41);
+    /* border: 2px solid black ; */
+    border:none;
+    box-shadow:5px 3px 5px black;
+    width: 50%;
+    margin: auto;
+}
+
+.card:hover{
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19); a box shadow that comes all around the box */
+    box-shadow: 4px 3px 3px rgb(245, 237, 237);
+    cursor: pointer;
+}
+
+.content {
+    padding: 20px;
+    /* line-height: 15px; */
+    font-size: 18pt;
+    text-align: center;
+    letter-spacing: 2px;
+    /* background: blue; */
+}
+.title {
+    text-transform: uppercase;
+    padding: 12px;
+    text-align: center;
+    font-size: 18pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    color: #4B3869;
+    width: 50% ;
+}
